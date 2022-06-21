@@ -1,16 +1,8 @@
-import { Header } from "./components/Header"
-import { Lesson } from "./components/Lesson"
-import { Sidebar } from "./components/sidebar"
-import { Video } from "./components/Video"
-function App() {
+import { Event } from "./pages/event"
+export function App() {
   return (
-    <div className="cla">
-      <Header />
-      <Sidebar />
-      <Video />
-      <Lesson />
-    </div>
+    <Event />
   )
 }
 
-export default App
+ //default App
