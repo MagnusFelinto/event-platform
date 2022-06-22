@@ -38,7 +38,9 @@
 .LessonInfoHeaderSpan1{
     @apply text-sm text-blue-500 font-medium flex items-center gap-2;
 }
-
+.LessonInfoHeaderSpan1block{
+    @apply text-sm text-orange-500 font-medium flex items-center gap-2;
+}
 .LessonInfoHeaderSpan2{
     @apply text-xs rounded py-[0.125rem] px-2 text-white border border-green-300 font-bold;
 }
