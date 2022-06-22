@@ -5,7 +5,22 @@
 .titulo{
     @apply text-5xl font-bold text-violet-500;
 }
+.divPrincipal{
+    @apply flex flex-col min-h-screen;
+}
+.Cabecario{
+    @apply w-full py-5 flex items-center justify-center bg-gray-700 border-b border-gray-600;
+}
+.mainEvent{
+    @apply flex flex-1;
+}
+.divVideo{
+    @apply flex-1;
+}
+.asideSidebar{
+    @apply  bg-gray-700 p-6 border-l border-gray-600 w-[348px];
+}
 
 body{
-    @apply bg-zinc-900 text-zinc-100;
+    @apply bg-gray-900 text-gray-100 antialiased;
 }
