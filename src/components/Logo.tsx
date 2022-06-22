@@ -1,5 +1,6 @@
 export function Logo() {
     return (
+
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="237"
@@ -17,6 +18,7 @@ export function Logo() {
             ></path>
             <path fill="#00B37E" d="M150.271 33.146h-4.958V.57h4.958v32.576z"></path>
         </svg>
+
     );
 }
 

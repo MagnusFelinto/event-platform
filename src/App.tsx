@@ -4,5 +4,3 @@ export function App() {
     <Event />
   )
 }
-
- //default App
