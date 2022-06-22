@@ -8,7 +8,7 @@
 .divPrincipal{
     @apply flex flex-col min-h-screen;
 }
-.Cabecario{
+.Cabecario{ 
     @apply w-full py-5 flex items-center justify-center bg-gray-700 border-b border-gray-600;
 }
 .mainEvent{
@@ -16,11 +16,36 @@
 }
 .divVideo{
     @apply flex-1;
-}
+} 
 .asideSidebar{
     @apply  bg-gray-700 p-6 border-l border-gray-600 w-[348px];
 }
-
-body{
-    @apply bg-gray-900 text-gray-100 antialiased;
+.spanSidebar{
+    @apply font-bold text-2xl p-6 mb-6 border-b border-gray-500 block;
 }
+.divLesson{
+    @apply flex flex-col gap-8;
+}
+.LessonData{
+    @apply text-gray-300;
+}
+.LessonInfo{
+    @apply rounded border border-gray-500 p-4 mt-2;
+}
+.LessonInfoHeader{
+    @apply flex items-center justify-between;
+}
+.LessonInfoHeaderSpan1{
+    @apply text-sm text-blue-500 font-medium flex items-center gap-2;
+}
+
+.LessonInfoHeaderSpan2{
+    @apply text-xs rounded py-[0.125rem] px-2 text-white border border-green-300 font-bold;
+}
+.LessonStrong{
+    @apply text-gray-200 mt-5 block;
+}
+body{
+    @apply bg-gray-900 text-gray-100 ;
+}
+-webkit-font-smoothing:antialiased;
